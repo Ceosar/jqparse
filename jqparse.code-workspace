@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../moesk"
+		},
+		{
+			"path": "../parse"
+		},
+		{
+			"path": "../task_for_scrum"
+		}
+	],
+	"settings": {}
+}

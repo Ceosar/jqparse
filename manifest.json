@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Получение данных",
+    "version": "1.0",
+    "description": "Получение данных",
+    "permissions": ["scripting", "activeTab", "downloads", "tabs"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {},
+    "content_scripts": [
+        {
+            "matches": ["https://10.77.71.130/sd/operator/*"],
+            "js": [
+                "jquery-3.6.4.min.js",
+                "jquery.waituntilexists.js",
+                "popup.js"
+            ]
+        }
+    ]
+}
